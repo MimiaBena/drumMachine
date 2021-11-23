@@ -27,7 +27,7 @@ function makeSound(key) {
 
   switch (key) {
     case "one":
-      var tom1 = new Audio("sounds/sounds_crash.mp3");
+      var tom1 = new Audio("sounds/clap.mp3");
       tom1.play();
       break;
 
@@ -37,7 +37,7 @@ function makeSound(key) {
       break;
 
     case "three":
-      var tom3 = new Audio('sounds/sounds_crash.mp3');
+      var tom3 = new Audio('sounds/01_DrumKit_assets_audio_tom.wav');
       tom3.play();
       break;
 
@@ -57,7 +57,7 @@ function makeSound(key) {
       break;
 
     case "seven":
-      var kick = new Audio('sounds/sounds_crash.mp3');
+      var kick = new Audio('sounds/sounds_snare.wav');
       kick.play();
       break;
      case "eight":
